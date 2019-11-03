@@ -2,7 +2,6 @@
 
 
 ## Overview:
-----------
 
 * In this project, *Handwritten Digit Classifier*, we will try build a neural network from scratch by using the required algorithms and mathematical functions in order to classify handwritten digit.
 
@@ -12,7 +11,6 @@
 
 
 ## Neural Network's Architecture:
-------
 
 * We all know that a basic neural network has three parts:-
     
