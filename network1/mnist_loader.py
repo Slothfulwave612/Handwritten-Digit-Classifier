@@ -8,8 +8,8 @@ includes three functions: load_data, load_data_wrapper and vectrorized_result.
 load_data function is used for opening the gz archive file (our MNIST dataset),
 loading and returning the training, validation and test dataset.
 
-The load_data_wrapper function actually returns t
-he training, validation and test data in a required format
+The load_data_wrapper function actually returns 
+the training, validation and test data in a required format
 which is accepted by our neural network.
 
 vectorized_result function is used for returing a
