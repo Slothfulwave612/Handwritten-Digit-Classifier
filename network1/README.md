@@ -11,6 +11,8 @@
   
   * *mnist_loader.py*: This file will contain the python code used for loading the MNIST dataset, i.e. loading the train and test dataset, for our network to use.
   
+  * *run_script.py*: This file will let users run the neural network and the program will return the accuracy after each epochs.
+  
   
 ## Brief Background:
 
@@ -103,3 +105,15 @@
 
 
 ***So, these are all the functions and algorithm that we will be using in network1 to build our neural network.***
+
+## Neural Network's Ouput:
+
+  * Our neural network has only one hidden layer having 30 neurons.(you can change the value, you only have to edit the code of run_script.py file)
+  
+  * We have 784 i/p neurons and 10 output neurons.
+  
+  * The final accuracy we are getting is around 95%.
+  
+  ![network1_run](https://user-images.githubusercontent.com/33928040/68215927-14621f00-0006-11ea-9ea7-8ecc128f5022.PNG)
+
+---
