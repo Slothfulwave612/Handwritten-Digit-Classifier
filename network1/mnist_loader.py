@@ -8,8 +8,8 @@ includes three functions: load_data, load_data_wrapper and vectrorized_result.
 load_data function is used for opening the gz archive file (our MNIST dataset),
 loading and returning the training, validation and test dataset.
 
-The load_data_wrapper function actually returns 
-the training, validation and test data in a required format
+The load_data_wrapper function actually returns t
+he training, validation and test data in a required format
 which is accepted by our neural network.
 
 vectorized_result function is used for returing a
@@ -133,7 +133,7 @@ def load_data_wrapper():
     test_inputs = [np.reshape(x, (784,1)) for x in tst_data[0]]
     ## reshaping the test inputs to 784x1 vector
     ## ---
-    test_data = zip(test_inputs, tst_data[0])
+    test_data = zip(test_inputs, tst_data[1])
     ## zipping together the test_inputs and it's corresponding outputs
 
     return (training_data, validation_data, test_data)
@@ -158,3 +158,5 @@ def vectorized_result(y):
     ## at index y assigning the value 1.0
 
     return e
+
+### slothfulwave612...
