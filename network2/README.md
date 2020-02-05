@@ -104,3 +104,16 @@
     ![weight_eq](https://user-images.githubusercontent.com/33928040/68566224-b86f1e80-047b-11ea-8067-2037ca3fe3e3.JPG)
 
   * Here, we are rescaling the weight w by a factor of 1−(ηλ/n), and this rescaling is sometime referred as **weight decay**.
+  
+## Neural Network's Ouput:
+
+  * Our neural network has two hidden layer having 30 neurons each.(you can change the value, you only have to edit the code of run_script.py file)
+  
+  * We have 784 i/p neurons and 10 output neurons.
+  
+  * The final accuracy we are getting is around 95%.
+  
+  ![acc_`](https://user-images.githubusercontent.com/33928040/73866201-75e69380-486a-11ea-8169-38a1babed89c.PNG)
+  ![acc_2](https://user-images.githubusercontent.com/33928040/73866234-8434af80-486a-11ea-8084-f25f91150874.PNG)
+  ![acc_3](https://user-images.githubusercontent.com/33928040/73866262-8dbe1780-486a-11ea-8d26-5d065440a77a.PNG)
+
