@@ -111,7 +111,7 @@
   
   * We have 784 i/p neurons and 10 output neurons.
   
-  * The final accuracy we are getting is around 95%.
+  * The final accuracy we are getting is around 96.81%.
   
   ![acc_`](https://user-images.githubusercontent.com/33928040/73866201-75e69380-486a-11ea-8169-38a1babed89c.PNG)
   ![acc_2](https://user-images.githubusercontent.com/33928040/73866234-8434af80-486a-11ea-8084-f25f91150874.PNG)
