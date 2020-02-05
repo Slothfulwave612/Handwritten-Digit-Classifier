@@ -20,7 +20,7 @@ training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
 net = network2.Network([784, 30, 30, 10])
 ## constructing the neural network
 ## having 784 i/p neurons,
-## 30 neurons in the hidden layer(n/w has only one hidden layer)
+## 30 neurons in the hidden layers(2 hidden layers)
 ## and 10 o/p neurons representing 0...9 digits
 
 training_accuracy, training_cost, evaluation_accuracy, evaluation_cost = net.SGD(training_data, epochs=30, mini_batch_size=10, eta=0.1,
